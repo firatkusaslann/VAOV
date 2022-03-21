@@ -1,0 +1,88 @@
+/* Fonts */
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.felix {
+  font-family: "Felix Titling", sans-serif;
+}
+
+/* text */
+.text-center {
+  text-align: center;
+}
+
+.small {
+  font-size: 1rem;
+}
+
+.medium {
+  font-size: 2rem;
+  font-weight: 200;
+}
+
+.big {
+  font-size: 3rem;
+  font-weight: 200;
+}
+
+.huge {
+  font-size: 3.25rem;
+  font-weight: 200;
+}
+
+/* Display */
+.flex {
+  display: flex;
+}
+
+.j-c-space-between {
+  justify-content: space-between;
+}
+
+.a-i-center {
+  align-items: center;
+}
+
+/* Colors */
+
+.dark-red {
+  color: #a82d2d;
+}
+
+.ligth {
+  color: #fff8f2;
+}
+
+.brown {
+  color: #9c612a;
+}
+
+.dark-red-bg {
+  background-color: #a82d2d;
+}
+
+.light-bg {
+  background-color: #fff8f2;
+}
+
+.brown-bg {
+  background-color: #9c612a;
+}
+
+.btn {
+  background: transparent;
+  border: 2px solid #a82d2d;
+  padding: 0.6rem 3rem;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #a82d2d;
+}
+
+/* Container */
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+}

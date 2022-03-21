@@ -1,0 +1,299 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #9c612a;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+.container-bg {
+  height: 665px;
+  position: relative;
+  object-fit: contain;
+}
+
+/* Navbar Section Start */
+#navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #9c612a;
+  height: 100px;
+  width: 100%;
+  padding: 0 50px;
+}
+
+#navbar ul {
+  list-style: none;
+}
+
+#navbar ul li a {
+  padding: 1.25rem;
+}
+
+#navbar ul li a:hover {
+  color: #a82d2d;
+}
+
+.right-side .basket {
+  background-color: #a82d2d;
+  padding: 0.6rem 0.8rem;
+  border-radius: 5px;
+  margin-right: 0.75rem;
+}
+
+.right-side .profile {
+  border: 2px solid #a82d2d;
+  padding: 0.6rem 1.2rem;
+  border-radius: 5px;
+}
+span {
+  color: #a82d2d;
+  margin-left: 0.5rem;
+}
+/* Navbar Finish */
+
+/* Hero Section Start */
+
+.heros {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  top: 200px;
+  margin: 0 auto;
+}
+.hero-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.left,
+h1,
+p,
+button,
+pre {
+  margin: 0 0 2rem 0;
+}
+
+pre {
+  font-size: 2.25em;
+  font-weight: 200;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  margin-left: 70px;
+}
+
+.right .texts .price {
+  font-size: 1.5rem;
+}
+
+.right .resim {
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  margin-right: 50px;
+  bottom: 80px;
+}
+.right .resim img {
+  border-top-left-radius: 200px;
+  border-top-right-radius: 200px;
+  z-index: 10;
+}
+
+.right .resim .shape {
+  position: absolute;
+  border-top-left-radius: 200px;
+  border-top-right-radius: 200px;
+  width: 345px;
+  height: 396px;
+}
+
+/* VAOV start */
+.vaov-number {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vaov-number-start {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.vaov-number-start .vaov-logo {
+  font-size: 16rem;
+  opacity: 0.1;
+}
+
+.numbers {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.number {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 100px;
+}
+
+.vaov-number .vaov-number-start .numbers .number .pop {
+  font-size: 24px;
+  font-weight: 300;
+  padding-left: 15px;
+}
+
+/* Category Section */
+.category-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.category-section .categories {
+  width: 1440px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.category-section .categories .category {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+}
+
+.category-section .categories .category .category-name {
+  background-color: #fff8f2;
+  opacity: 0.8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #a82d2d;
+  position: absolute;
+  width: 100%;
+  height: 162px;
+}
+
+.category-section .categories .category .category-name:hover {
+  background-color: #9c612a;
+  color: #fff8f2;
+  transition: 0.3s;
+}
+
+.category-section .categori-header {
+  margin-bottom: 50px;
+}
+.ca-name {
+  margin-top: 20px;
+}
+
+/* Catagories finish */
+
+/* Product Start */
+
+.product-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-section .product-header {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff8f2;
+}
+
+.product-section .product-header p {
+  margin-top: 35px;
+}
+
+.product-section .products {
+  width: 1400px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+
+.product-section .products .product {
+  max-width: 338px;
+  margin-bottom: 50px;
+}
+
+.product-section .products .product .product-info {
+  margin: 0 0 0 24px;
+}
+
+.product-section .products .product .product-info .texts .baslık {
+  margin: 6px 0;
+  font-size: 24px;
+}
+
+.product-section .products .product .product-info .texts .info {
+  color: #606060;
+  font-size: 14px;
+  letter-spacing: 0.8px;
+}
+
+.product-section .products .product .product-info .price-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-section .products .product .product-info .price {
+  font-size: 24px;
+}
+
+.product-section .products .product .product-info .btnn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 24px;
+  padding: 8px 16px;
+  outline: none;
+  border: 2px solid #a82d2d;
+  background: transparent;
+  border-radius: 3px;
+  color: #a82d2d;
+}
+
+.product-section .products .product .product-info .btnn img {
+  margin-right: 15px;
+}
+
+.product-section .products .product .product-info .btnn {
+  font-size: 14px;
+}
